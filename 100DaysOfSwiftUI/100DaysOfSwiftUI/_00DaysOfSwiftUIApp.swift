@@ -11,7 +11,8 @@ import SwiftUI
 struct _00DaysOfSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            WeSplit()
+//            WeSplit()
+            TemperatureConversion()
         }
     }
 }
