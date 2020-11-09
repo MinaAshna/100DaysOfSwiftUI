@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WeSplit: View {
     @State private var checkAmount = ""
     @State private var numberOfPeople = 2
     @State private var tipPercentage = 2
@@ -69,7 +69,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        WeSplit()
             .previewDevice("iPhone 11 Pro")
     }
 }
