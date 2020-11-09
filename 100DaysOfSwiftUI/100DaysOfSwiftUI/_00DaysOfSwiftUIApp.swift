@@ -12,7 +12,8 @@ struct _00DaysOfSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
 //            WeSplit()
-            TemperatureConversion()
+//            TemperatureConversion()
+            GuessTheFlag()
         }
     }
 }

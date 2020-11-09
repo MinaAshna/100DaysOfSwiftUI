@@ -12,6 +12,7 @@
 		B40B4E7925595F0C00CCAA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40B4E7825595F0C00CCAA2D /* Assets.xcassets */; };
 		B40B4E7C25595F0C00CCAA2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40B4E7B25595F0C00CCAA2D /* Preview Assets.xcassets */; };
 		B4768039255979170065B830 /* TemperatureConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4768038255979170065B830 /* TemperatureConversion.swift */; };
+		B4F863A1255996130036AC6A /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F863A0255996130036AC6A /* GuessTheFlag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B40B4E7B25595F0C00CCAA2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B40B4E7D25595F0C00CCAA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4768038255979170065B830 /* TemperatureConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConversion.swift; sourceTree = "<group>"; };
+		B4F863A0255996130036AC6A /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B40B4E7425595F0A00CCAA2D /* _00DaysOfSwiftUIApp.swift */,
 				B40B4E7625595F0A00CCAA2D /* WeSplit.swift */,
 				B4768038255979170065B830 /* TemperatureConversion.swift */,
+				B4F863A0255996130036AC6A /* GuessTheFlag.swift */,
 				B40B4E7825595F0C00CCAA2D /* Assets.xcassets */,
 				B40B4E7D25595F0C00CCAA2D /* Info.plist */,
 				B40B4E7A25595F0C00CCAA2D /* Preview Content */,
@@ -144,6 +147,7 @@
 				B4768039255979170065B830 /* TemperatureConversion.swift in Sources */,
 				B40B4E7725595F0A00CCAA2D /* WeSplit.swift in Sources */,
 				B40B4E7525595F0A00CCAA2D /* _00DaysOfSwiftUIApp.swift in Sources */,
+				B4F863A1255996130036AC6A /* GuessTheFlag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
