@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true'>
+    <pages>
+        <page name='BasicClosures'/>
+        <page name='ParametersInClosure'/>
+        <page name='ReturningValuesFromClosure'/>
+        <page name='ClosuresAsParameters'/>
+        <page name='TrailingClosure'/>
+        <page name='ClosuresAsParametersAcceptingParameters'/>
+        <page name='ShorthandParameterNameInClosure'/>
+        <page name='ClosureWithMultipleParameters'/>
+        <page name='MutatingMethods'/>
+        <page name='CopyingObject'/>
+        <page name='ProtocolInheritance'/>
+        <page name='ProtocolExtension'/>
+        <page name='FailableInitializer'/>
+    </pages>
+</playground>
