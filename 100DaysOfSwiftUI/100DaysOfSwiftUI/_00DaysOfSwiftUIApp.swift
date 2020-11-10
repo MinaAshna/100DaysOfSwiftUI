@@ -14,7 +14,9 @@ struct _00DaysOfSwiftUIApp: App {
 //            WeSplit()
 //            TemperatureConversion()
 //            GuessTheFlag()
-            ViewComposition()
+//            ViewComposition()
+//            CustomModifiers()
+            ViewAndModifiers()
         }
     }
 }

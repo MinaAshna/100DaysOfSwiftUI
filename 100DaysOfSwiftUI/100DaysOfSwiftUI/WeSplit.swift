@@ -59,7 +59,7 @@ struct WeSplit: View {
                 }
                 
                 Section {
-                    Text("\(grandTotal)")
+                        Text("\(grandTotal)")
                 }
             }
             .navigationBarTitle("WeSplit")
