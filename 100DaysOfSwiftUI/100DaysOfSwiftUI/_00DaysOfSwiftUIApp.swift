@@ -16,7 +16,8 @@ struct _00DaysOfSwiftUIApp: App {
 //            GuessTheFlag()
 //            ViewComposition()
 //            CustomModifiers()
-            ViewAndModifiers()
+//            ViewAndModifiers()
+            BetterRest()
         }
     }
 }
