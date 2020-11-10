@@ -11,8 +11,10 @@
 		B40B4E7725595F0A00CCAA2D /* WeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B4E7625595F0A00CCAA2D /* WeSplit.swift */; };
 		B40B4E7925595F0C00CCAA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40B4E7825595F0C00CCAA2D /* Assets.xcassets */; };
 		B40B4E7C25595F0C00CCAA2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40B4E7B25595F0C00CCAA2D /* Preview Assets.xcassets */; };
+		B40C04A4255AB57000F461EA /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40C04A3255AB57000F461EA /* CustomModifiers.swift */; };
 		B4768039255979170065B830 /* TemperatureConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4768038255979170065B830 /* TemperatureConversion.swift */; };
 		B4F863A1255996130036AC6A /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F863A0255996130036AC6A /* GuessTheFlag.swift */; };
+		B4F863A5255A86F30036AC6A /* ViewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F863A4255A86F30036AC6A /* ViewComposition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +24,10 @@
 		B40B4E7825595F0C00CCAA2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B40B4E7B25595F0C00CCAA2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B40B4E7D25595F0C00CCAA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B40C04A3255AB57000F461EA /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		B4768038255979170065B830 /* TemperatureConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConversion.swift; sourceTree = "<group>"; };
 		B4F863A0255996130036AC6A /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
+		B4F863A4255A86F30036AC6A /* ViewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComposition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				B40B4E7625595F0A00CCAA2D /* WeSplit.swift */,
 				B4768038255979170065B830 /* TemperatureConversion.swift */,
 				B4F863A0255996130036AC6A /* GuessTheFlag.swift */,
+				B4F863A4255A86F30036AC6A /* ViewComposition.swift */,
+				B40C04A3255AB57000F461EA /* CustomModifiers.swift */,
 				B40B4E7825595F0C00CCAA2D /* Assets.xcassets */,
 				B40B4E7D25595F0C00CCAA2D /* Info.plist */,
 				B40B4E7A25595F0C00CCAA2D /* Preview Content */,
@@ -144,8 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F863A5255A86F30036AC6A /* ViewComposition.swift in Sources */,
 				B4768039255979170065B830 /* TemperatureConversion.swift in Sources */,
 				B40B4E7725595F0A00CCAA2D /* WeSplit.swift in Sources */,
+				B40C04A4255AB57000F461EA /* CustomModifiers.swift in Sources */,
 				B40B4E7525595F0A00CCAA2D /* _00DaysOfSwiftUIApp.swift in Sources */,
 				B4F863A1255996130036AC6A /* GuessTheFlag.swift in Sources */,
 			);
