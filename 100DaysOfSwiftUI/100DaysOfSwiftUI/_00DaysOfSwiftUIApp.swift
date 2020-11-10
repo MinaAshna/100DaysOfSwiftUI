@@ -13,7 +13,11 @@ struct _00DaysOfSwiftUIApp: App {
         WindowGroup {
 //            WeSplit()
 //            TemperatureConversion()
-            GuessTheFlag()
+//            GuessTheFlag()
+//            ViewComposition()
+//            CustomModifiers()
+//            ViewAndModifiers()
+            BetterRest()
         }
     }
 }
