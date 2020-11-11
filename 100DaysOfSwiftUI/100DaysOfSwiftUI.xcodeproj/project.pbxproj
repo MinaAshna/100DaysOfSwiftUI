@@ -18,6 +18,8 @@
 		B4F863A1255996130036AC6A /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F863A0255996130036AC6A /* GuessTheFlag.swift */; };
 		B4F863A5255A86F30036AC6A /* ViewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F863A4255A86F30036AC6A /* ViewComposition.swift */; };
 		F14FC9CB255B279100B1A447 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F14FC9CA255B279100B1A447 /* SleepCalculator.mlmodel */; };
+		F14FC9CE255BD66300B1A447 /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FC9CD255BD66300B1A447 /* WordScramble.swift */; };
+		F14FC9D1255BE3C000B1A447 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = F14FC9D0255BE3C000B1A447 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		B4F863A0255996130036AC6A /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		B4F863A4255A86F30036AC6A /* ViewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComposition.swift; sourceTree = "<group>"; };
 		F14FC9CA255B279100B1A447 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		F14FC9CD255BD66300B1A447 /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
+		F14FC9D0255BE3C000B1A447 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				B40B4E7825595F0C00CCAA2D /* Assets.xcassets */,
 				B40B4E7D25595F0C00CCAA2D /* Info.plist */,
 				B40B4E7A25595F0C00CCAA2D /* Preview Content */,
+				F14FC9CD255BD66300B1A447 /* WordScramble.swift */,
+				F14FC9D0255BE3C000B1A447 /* start.txt */,
 			);
 			path = 100DaysOfSwiftUI;
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B40B4E7C25595F0C00CCAA2D /* Preview Assets.xcassets in Resources */,
+				F14FC9D1255BE3C000B1A447 /* start.txt in Resources */,
 				B40B4E7925595F0C00CCAA2D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14FC9CE255BD66300B1A447 /* WordScramble.swift in Sources */,
 				B4F863A5255A86F30036AC6A /* ViewComposition.swift in Sources */,
 				B4768039255979170065B830 /* TemperatureConversion.swift in Sources */,
 				B40B4E7725595F0A00CCAA2D /* WeSplit.swift in Sources */,

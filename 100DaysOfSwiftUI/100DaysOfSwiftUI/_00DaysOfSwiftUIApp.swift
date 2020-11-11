@@ -17,7 +17,8 @@ struct _00DaysOfSwiftUIApp: App {
 //            ViewComposition()
 //            CustomModifiers()
 //            ViewAndModifiers()
-            BetterRest()
+//            BetterRest()
+            WordScramble()
         }
     }
 }
