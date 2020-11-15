@@ -23,7 +23,8 @@ struct _00DaysOfSwiftUIApp: App {
 //            AnimationStack()
 //            AnimationGesture()
 //            StateWithObservedObject()
-            ShowingAndHidingViews()
+//            ShowingAndHidingViews()
+            DeletingItemsUsingOnDelete()
         }
     }
 }
