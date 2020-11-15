@@ -22,7 +22,8 @@ struct _00DaysOfSwiftUIApp: App {
 //            ImplicitAnimation()
 //            AnimationStack()
 //            AnimationGesture()
-            StateWithObservedObject()
+//            StateWithObservedObject()
+            ShowingAndHidingViews()
         }
     }
 }

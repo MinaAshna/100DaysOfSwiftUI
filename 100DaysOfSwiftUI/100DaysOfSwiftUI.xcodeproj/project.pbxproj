@@ -22,6 +22,7 @@
 		F10F238C256029AB00A01366 /* AnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F238B256029AB00A01366 /* AnimationStack.swift */; };
 		F10F238F25602B5000A01366 /* AnimationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F238E25602B5000A01366 /* AnimationGesture.swift */; };
 		F10F239225611A4300A01366 /* StateWithObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F239125611A4300A01366 /* StateWithObservedObject.swift */; };
+		F10F239625611DAC00A01366 /* ShowingAndHidingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F239525611DAC00A01366 /* ShowingAndHidingViews.swift */; };
 		F14FC9CB255B279100B1A447 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F14FC9CA255B279100B1A447 /* SleepCalculator.mlmodel */; };
 		F14FC9CE255BD66300B1A447 /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FC9CD255BD66300B1A447 /* WordScramble.swift */; };
 		F14FC9D1255BE3C000B1A447 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = F14FC9D0255BE3C000B1A447 /* start.txt */; };
@@ -45,6 +46,7 @@
 		F10F238B256029AB00A01366 /* AnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStack.swift; sourceTree = "<group>"; };
 		F10F238E25602B5000A01366 /* AnimationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGesture.swift; sourceTree = "<group>"; };
 		F10F239125611A4300A01366 /* StateWithObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithObservedObject.swift; sourceTree = "<group>"; };
+		F10F239525611DAC00A01366 /* ShowingAndHidingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAndHidingViews.swift; sourceTree = "<group>"; };
 		F14FC9CA255B279100B1A447 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		F14FC9CD255BD66300B1A447 /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
 		F14FC9D0255BE3C000B1A447 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				F10F238B256029AB00A01366 /* AnimationStack.swift */,
 				F10F238E25602B5000A01366 /* AnimationGesture.swift */,
 				F10F239125611A4300A01366 /* StateWithObservedObject.swift */,
+				F10F239525611DAC00A01366 /* ShowingAndHidingViews.swift */,
 			);
 			path = 100DaysOfSwiftUI;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				F10F2389256028FD00A01366 /* Niklas.swift in Sources */,
 				B40B4E7525595F0A00CCAA2D /* _00DaysOfSwiftUIApp.swift in Sources */,
 				F10F2386255DE08A00A01366 /* ImplicitAnimation.swift in Sources */,
+				F10F239625611DAC00A01366 /* ShowingAndHidingViews.swift in Sources */,
 				B40C04A8255AB8C500F461EA /* ViewAndModifiers.swift in Sources */,
 				F10F239225611A4300A01366 /* StateWithObservedObject.swift in Sources */,
 				F10F238F25602B5000A01366 /* AnimationGesture.swift in Sources */,
