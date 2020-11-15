@@ -18,7 +18,11 @@ struct _00DaysOfSwiftUIApp: App {
 //            CustomModifiers()
 //            ViewAndModifiers()
 //            BetterRest()
-            WordScramble()
+//            WordScramble()
+//            ImplicitAnimation()
+//            AnimationStack()
+//            AnimationGesture()
+            StateWithObservedObject()
         }
     }
 }
