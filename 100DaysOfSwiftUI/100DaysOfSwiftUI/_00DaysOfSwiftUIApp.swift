@@ -25,7 +25,11 @@ struct _00DaysOfSwiftUIApp: App {
 //            StateWithObservedObject()
 //            ShowingAndHidingViews()
 //            DeletingItemsUsingOnDelete()
-            iExpense()
+//            iExpense()
+//            ResizingImage()
+//            ScrollViewData()
+//            PushingViewOnToTheStack()
+            Moonshot()
         }
     }
 }
