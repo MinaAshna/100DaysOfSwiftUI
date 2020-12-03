@@ -30,7 +30,8 @@ struct _00DaysOfSwiftUIApp: App {
 //            ScrollViewData()
 //            PushingViewOnToTheStack()
 //            Moonshot()
-            Cupcake()
+//            Cupcake()
+            CustomComponent()
         }
     }
 }
