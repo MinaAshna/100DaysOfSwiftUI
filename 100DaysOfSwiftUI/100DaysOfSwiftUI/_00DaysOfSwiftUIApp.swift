@@ -29,7 +29,8 @@ struct _00DaysOfSwiftUIApp: App {
 //            ResizingImage()
 //            ScrollViewData()
 //            PushingViewOnToTheStack()
-            Moonshot()
+//            Moonshot()
+            Cupcake()
         }
     }
 }

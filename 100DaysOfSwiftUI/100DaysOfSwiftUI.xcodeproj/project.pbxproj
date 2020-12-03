@@ -25,6 +25,10 @@
 		B42B65AC2562943400C9358B /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42B65AB2562943400C9358B /* MissionView.swift */; };
 		B42B65AF2562A01E00C9358B /* AstronautsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42B65AE2562A01E00C9358B /* AstronautsView.swift */; };
 		B4768039255979170065B830 /* TemperatureConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4768038255979170065B830 /* TemperatureConversion.swift */; };
+		B47AD8672578F410007C28B4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47AD8662578F410007C28B4 /* Order.swift */; };
+		B47AD86B2578F4E0007C28B4 /* Cupcake.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47AD86A2578F4E0007C28B4 /* Cupcake.swift */; };
+		B47AD86E2578F8B7007C28B4 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47AD86D2578F8B7007C28B4 /* AddressView.swift */; };
+		B47AD8722578FAD3007C28B4 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47AD8712578FAD3007C28B4 /* CheckoutView.swift */; };
 		B4A4C2BF255ADBDF00DBE63E /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4C2BE255ADBDF00DBE63E /* BetterRest.swift */; };
 		B4F863A1255996130036AC6A /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F863A0255996130036AC6A /* GuessTheFlag.swift */; };
 		B4F863A5255A86F30036AC6A /* ViewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F863A4255A86F30036AC6A /* ViewComposition.swift */; };
@@ -63,6 +67,10 @@
 		B42B65AB2562943400C9358B /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		B42B65AE2562A01E00C9358B /* AstronautsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsView.swift; sourceTree = "<group>"; };
 		B4768038255979170065B830 /* TemperatureConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConversion.swift; sourceTree = "<group>"; };
+		B47AD8662578F410007C28B4 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		B47AD86A2578F4E0007C28B4 /* Cupcake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cupcake.swift; sourceTree = "<group>"; };
+		B47AD86D2578F8B7007C28B4 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		B47AD8712578FAD3007C28B4 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		B4A4C2BE255ADBDF00DBE63E /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
 		B4F863A0255996130036AC6A /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		B4F863A4255A86F30036AC6A /* ViewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComposition.swift; sourceTree = "<group>"; };
@@ -110,6 +118,7 @@
 		B40B4E7325595F0A00CCAA2D /* 100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B47AD8652578F3FE007C28B4 /* Cupcake */,
 				B42B65942562880C00C9358B /* Moonshot */,
 				F10F239E256179BD00A01366 /* iExpense */,
 				B40B4E7425595F0A00CCAA2D /* _00DaysOfSwiftUIApp.swift */,
@@ -161,6 +170,17 @@
 				B42B65AE2562A01E00C9358B /* AstronautsView.swift */,
 			);
 			path = Moonshot;
+			sourceTree = "<group>";
+		};
+		B47AD8652578F3FE007C28B4 /* Cupcake */ = {
+			isa = PBXGroup;
+			children = (
+				B47AD8662578F410007C28B4 /* Order.swift */,
+				B47AD86A2578F4E0007C28B4 /* Cupcake.swift */,
+				B47AD86D2578F8B7007C28B4 /* AddressView.swift */,
+				B47AD8712578FAD3007C28B4 /* CheckoutView.swift */,
+			);
+			path = Cupcake;
 			sourceTree = "<group>";
 		};
 		F10F239E256179BD00A01366 /* iExpense */ = {
@@ -248,7 +268,9 @@
 				F10F238C256029AB00A01366 /* AnimationStack.swift in Sources */,
 				B42B65A22562890800C9358B /* Bundle-Decodable.swift in Sources */,
 				F14FC9CE255BD66300B1A447 /* WordScramble.swift in Sources */,
+				B47AD86B2578F4E0007C28B4 /* Cupcake.swift in Sources */,
 				B42B659F2562889A00C9358B /* Astronaut.swift in Sources */,
+				B47AD86E2578F8B7007C28B4 /* AddressView.swift in Sources */,
 				B4F863A5255A86F30036AC6A /* ViewComposition.swift in Sources */,
 				B4768039255979170065B830 /* TemperatureConversion.swift in Sources */,
 				B40B4E7725595F0A00CCAA2D /* WeSplit.swift in Sources */,
@@ -272,6 +294,8 @@
 				F14FC9CB255B279100B1A447 /* SleepCalculator.mlmodel in Sources */,
 				F10F23A0256179CF00A01366 /* iExpenseAddView.swift in Sources */,
 				B4A4C2BF255ADBDF00DBE63E /* BetterRest.swift in Sources */,
+				B47AD8722578FAD3007C28B4 /* CheckoutView.swift in Sources */,
+				B47AD8672578F410007C28B4 /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
