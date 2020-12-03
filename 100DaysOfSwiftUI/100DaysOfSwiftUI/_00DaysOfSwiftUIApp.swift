@@ -31,7 +31,8 @@ struct _00DaysOfSwiftUIApp: App {
 //            PushingViewOnToTheStack()
 //            Moonshot()
 //            Cupcake()
-            CustomComponent()
+//            CustomComponent()
+            Bookworm()
         }
     }
 }
