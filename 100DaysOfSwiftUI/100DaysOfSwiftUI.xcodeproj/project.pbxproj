@@ -30,8 +30,6 @@
 		B47AD86E2578F8B7007C28B4 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47AD86D2578F8B7007C28B4 /* AddressView.swift */; };
 		B47AD8722578FAD3007C28B4 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47AD8712578FAD3007C28B4 /* CheckoutView.swift */; };
 		B47AD875257930BE007C28B4 /* CustomComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47AD874257930BE007C28B4 /* CustomComponent.swift */; };
-		B47AD87C25793604007C28B4 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B47AD87A25793604007C28B4 /* Bookworm.xcdatamodeld */; };
-		B47AD883257936E4007C28B4 /* Bookworm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47AD882257936E4007C28B4 /* Bookworm.swift */; };
 		B4A4C2BF255ADBDF00DBE63E /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4C2BE255ADBDF00DBE63E /* BetterRest.swift */; };
 		B4F863A1255996130036AC6A /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F863A0255996130036AC6A /* GuessTheFlag.swift */; };
 		B4F863A5255A86F30036AC6A /* ViewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F863A4255A86F30036AC6A /* ViewComposition.swift */; };
@@ -75,8 +73,6 @@
 		B47AD86D2578F8B7007C28B4 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		B47AD8712578FAD3007C28B4 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		B47AD874257930BE007C28B4 /* CustomComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponent.swift; sourceTree = "<group>"; };
-		B47AD87B25793604007C28B4 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
-		B47AD882257936E4007C28B4 /* Bookworm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookworm.swift; sourceTree = "<group>"; };
 		B4A4C2BE255ADBDF00DBE63E /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
 		B4F863A0255996130036AC6A /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		B4F863A4255A86F30036AC6A /* ViewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComposition.swift; sourceTree = "<group>"; };
@@ -124,7 +120,6 @@
 		B40B4E7325595F0A00CCAA2D /* 100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				B47AD879257935A8007C28B4 /* Bookworm */,
 				B47AD8652578F3FE007C28B4 /* Cupcake */,
 				B42B65942562880C00C9358B /* Moonshot */,
 				F10F239E256179BD00A01366 /* iExpense */,
@@ -189,15 +184,6 @@
 				B47AD8712578FAD3007C28B4 /* CheckoutView.swift */,
 			);
 			path = Cupcake;
-			sourceTree = "<group>";
-		};
-		B47AD879257935A8007C28B4 /* Bookworm */ = {
-			isa = PBXGroup;
-			children = (
-				B47AD87A25793604007C28B4 /* Bookworm.xcdatamodeld */,
-				B47AD882257936E4007C28B4 /* Bookworm.swift */,
-			);
-			path = Bookworm;
 			sourceTree = "<group>";
 		};
 		F10F239E256179BD00A01366 /* iExpense */ = {
@@ -294,10 +280,8 @@
 				B40B4E7725595F0A00CCAA2D /* WeSplit.swift in Sources */,
 				B42B65A525628CDF00C9358B /* Mission.swift in Sources */,
 				B40C04A4255AB57000F461EA /* CustomModifiers.swift in Sources */,
-				B47AD87C25793604007C28B4 /* Bookworm.xcdatamodeld in Sources */,
 				F10F2389256028FD00A01366 /* Niklas.swift in Sources */,
 				B40B4E7525595F0A00CCAA2D /* _00DaysOfSwiftUIApp.swift in Sources */,
-				B47AD883257936E4007C28B4 /* Bookworm.swift in Sources */,
 				F10F239C2561750200A01366 /* iExpense.swift in Sources */,
 				B42B6592256281C700C9358B /* PushingViewOnToTheStack.swift in Sources */,
 				B42B65962562881600C9358B /* Moonshot.swift in Sources */,
@@ -504,19 +488,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B47AD87A25793604007C28B4 /* Bookworm.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B47AD87B25793604007C28B4 /* Bookworm.xcdatamodel */,
-			);
-			currentVersion = B47AD87B25793604007C28B4 /* Bookworm.xcdatamodel */;
-			path = Bookworm.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B40B4E6925595F0A00CCAA2D /* Project object */;
 }
