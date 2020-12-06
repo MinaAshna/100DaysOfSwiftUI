@@ -11,15 +11,35 @@ struct ContentView: View {
     @Environment(\.managedObjectContext) private var moc
 
     @FetchRequest(
-        sortDescriptors: [], animation: .default) private var books: FetchedResults<Book>
+        sortDescriptors: [
+            // Having more than 2 sortDescriptor has performance impact
+            NSSortDescriptor(keyPath: \Book.title, ascending: true),
+            NSSortDescriptor(keyPath: \Book.author, ascending: true)
+        ], animation: .default) private var books: FetchedResults<Book>
     
     @State private var showingAddBookScreen = false
 
     var body: some View {
         NavigationView {
-            Text("Count: \(books.count)")
+            List {
+                ForEach(books, id: \.self) { book in
+                    NavigationLink(destination: DetailView(book: book)) {
+                        EmojiRatingView(rating: book.rating)
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading) {
+                            Text(book.title ?? "Unknown title")
+                                .font(.headline)
+                            Text(book.author ?? "Unknown author")
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                }
+                .onDelete(perform: deleteBooks)
+            }
                 .navigationBarTitle("Bookworm")
-                .navigationBarItems(trailing:
+            .navigationBarItems(leading: EditButton(),
+                                trailing:
                                         Button(action: {
                                             self.showingAddBookScreen.toggle()
                                         }) {
@@ -61,6 +81,17 @@ struct ContentView: View {
 //            }
 //        }
 //    }
+}
+
+extension ContentView {
+    private func deleteBooks(atOffset offsets: IndexSet) {
+        for offset in offsets {
+            let book = books[offset]
+            moc.delete(book)
+        }
+        
+        try? moc.save()
+    }
 }
 
 private let itemFormatter: DateFormatter = {
